@@ -6,7 +6,11 @@ I use to this to update a DNS record for my personal zone as and when my home IP
 
 ## Usage
 
+First, make sure you have the `CF_API_KEY` and `CF_API_EMAIL` environment variables set.  Then:
+
+```
 ./dnsup <fqdn>
+```
 
 ## Thanks
 
